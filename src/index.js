@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MyComp from './StateREADME';
+import StateComponent from './StateREADME';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComp />
+    <StateComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );

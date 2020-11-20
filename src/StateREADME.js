@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 
-export default class MyComp extends Component {
+export default class StateComponent extends Component {
+  // use the constructor to set the INITIAL STATE
   constructor() {
     super()
     this.state = {
@@ -8,6 +9,7 @@ export default class MyComp extends Component {
     }
   }
 
+  // increment method makes use of the 'setState' method to alter state
   increment = () => {
     const newCount = this.state.count + 1
     this.setState({
