@@ -11,6 +11,7 @@ export default class Clicker extends React.Component {
         <h1>Events In Detail</h1>
         <p>(console.logs event.type)</p>
         <button onClick={this.handleClick}>Click me!</button>
+        <hr></hr>
       </div>
     )
   }
